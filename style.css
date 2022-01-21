@@ -1,0 +1,15 @@
+h3{
+    font-size: 35px !important;
+}
+.btn-warning:hover{
+    background-color: rgb(255, 221, 0);
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow:1px 1px 100px aqua;}
+    to{box-shadow:1px 1px 100px rgb(153, 255, 0);}
+}
